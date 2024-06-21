@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    
+    <main>
+      <aside>
+        <ul class="Links">
+          <li class="activeLink"><i class="fas fa-home"></i>Home</li>
+          <li><i class="fas fa-user"></i>About</li>
+          <li><i class="fas fa-tools"></i>Services</li>
+          <li><i class="fas fa-briefcase"></i>Portfolio</li>
+          <li><i class="fas fa-blog"></i>Blog</li>
+          <li><i class="fas fa-envelope"></i>Contact</li>
+        </ul>
+      </aside>
+      <div class="mySwiper">
+        <!-- Home Section -->
+        <section class="home-slide swiper-slide">
+          <div class="HomeContent">
+            <h1>
+              Welcome to <span class="stylized-name">Jocala Interiors</span>
+            </h1>
+            <h2>
+              A Creative and interactive company for interior desires<span class="proffesions"
+                >info of the company</span
+              >
+            </h2>
+            <p class="heroline">more info on the company...</p>
+           
+          </div>
+          <div class="SideImg">
+            <img src="your-image.jpg" alt="Jocala image" />
+            <div class="top-right-corner"><hr class="hr1" /></div>
+            <div class="bottom-left-corner"><hr class="hr2" /></div>
+          </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="about-us swiper-slide">
+          <h1 class="heading">About Jocala Interiors</h1>
+          <div class="about-me-divison">
+            <div class="about-me-table">
+              <li><span>Company CEO</span> Praise Lavender</li>
+              <li><span>Age:</span> 29</li>
+              <li><span>Experience:</span> 10 Years in Interior design</li>
+              <li><span>Freelance:</span> Available</li>
+              
+            </div>
+            <div>
+              <p class="heroline">
+                Jocala properties is an interior design company based in kenya,dedicated to creating exceptional and captivating living and working spaces
+                With a passion for design and commitment; we deliver unparalleled qualuty designs.Our team of skilled professionals strives to turn your interior dreams into a breathtaking reality.
+
+
+                At Jocala, we understand that each client is unique and we believe that your space should reflect your idividuality and  personality.
+                for that reason we approach every project with maticulous attention  to the detail and a deep understanding of our clients desires and requirements
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Services Section -->
+        <section id="services" class="services swiper-slide">
+          <h1 class="heading">Services</h1>
+          <div class="service">
+            <i class="fas fa-laptop-code service-icon"></i>
+            <h2>Web Design</h2>
+            <p>
+              Creating stunning web designs that are functional and
+              user-friendly.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fas fa-mobile-alt service-icon"></i>
+            <h2>Responsive Design</h2>
+            <p>
+              Ensuring your website looks great on all devices, big and small.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fas fa-code service-icon"></i>
+            <h2>Web Development</h2>
+            <p>
+              Building robust websites and web applications that scale with your
+              business.
+            </p>
+          </div>
+        </section>
+   <!-- Portfolio Section -->
+<section class="events-page" style="display: none;">
+  <div id="section1" class="event swiper-slide">
+    <div class="pinWrapper">
+      <div class="text">
+        <h2>Living</h2>
+        <p>Explore our range of stylish and comfortable living room furniture.</p>
+      </div>
+      <div class="image" id="loaderVideo">
+        <video autoplay loop muted playsinline>
+          <source src="https://www.yudiz.com/codepen/studio-r/bg-video.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- Video -->
+    </div>
+    <div class="scrollBtn">
+      <h6>scroll</h6>
+      <span></span>
+    </div>
+  </div>
+  <!-- Section 2 -->
+  <div id="section2" class="event swiper-slide">
+    <div class="pinWrapper">
+      <div class="text">
+        <h2>Kitchen</h2>
+        <p>Check out our modern and functional kitchen furniture and accessories.</p>
+      </div>
+      <div class="image"></div>
+    </div>
+  </div>
+  <!-- Section 3 -->
+  <div id="section3" class="event swiper-slide">
+    <div class="pinWrapper">
+      <div class="text">
+        <h2>Bedroom</h2>
+        <p>Discover our collection of bedroom furniture to create your dream space.</p>
+      </div>
+      <div class="image"></div>
+    </div>
+  </div>
+  <!-- Section 4 -->
+  <div id="section4" class="event swiper-slide">
+    <div class="pinWrapper">
+      <div class="text">
+        <h2>Office</h2>
+        <p>Find the perfect office furniture to make your workspace comfortable and productive.</p>
+      </div>
+      <div class="image"></div>
+    </div>
+  </div>
+</section>
+
+
+       
+        <!-- Blog Section -->
+        <section id="blog" class="about-us swiper-slide">
+          <h1 class="heading">Blog</h1>
+          <div class="about-me-table">
+            <div class="blog-item">
+              <img
+                src="design-conferences-2022.jpg"
+                alt="Design conferences in 2022"
+              />
+              <p>
+                <strong>Design conferences in 2022</strong><br />Feb 23, 2022<br />Veritatis
+                et quasi architecto beatae vitae dicta sunt, explicabo.
+              </p>
+            </div>
+            <div class="blog-item">
+              <img src="best-fonts.jpg" alt="Best fonts every designer" />
+              <p>
+                <strong>Best fonts every designer</strong><br />Feb 23, 2022<br />Sed
+                ut perspiciatis, nam libero tempore, cum soluta nobis est
+                eligendi.
+              </p>
+            </div>
+            <div class="blog-item">
+              <img src="design-digest-80.jpg" alt="Design digest #80" />
+              <p>
+                <strong>Design digest #80</strong><br />Feb 23, 2022<br />Excepteur
+                sint occaecat cupidatat non proident, quis nostrum
+                exercitationem ullam corporis suscipit.
+              </p>
+            </div>
+            <div class="blog-item">
+              <img
+                src="ui-interactions.jpg"
+                alt="UI interactions of the week"
+              />
+              <p>
+                <strong>UI interactions of the week</strong><br />Feb 23,
+                2022<br />Enim ad minim veniam, consectetur adipiscing elit,
+                quis nostrud exercitation ullamco laboris nisi.
+              </p>
+            </div>
+            <div class="blog-item">
+              <img
+                src="forgotten-art-spacing.jpg"
+                alt="The forgotten art of spacing"
+              />
+              <p>
+                <strong>The Forgotten Art Of Spacing</strong><br />Feb 23,
+                2022<br />Maxime placeat, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="blog-item">
+              <img src="design-digest-79.jpg" alt="Design digest #79" />
+              <p>
+                <strong>Design Digest #79</strong><br />Feb 23, 2022<br />Optio
+                cumque nihil impedit quo minus quod maxime placeat, velit esse
+                cillum.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contactMe swiper-slide">
+          <h1>Contact Me</h1>
+          <div class="contactinfo">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>Your Address</p>
+          </div>
+          <div class="contactinfo">
+            <i class="fas fa-phone-alt"></i>
+            <h3>Phone</h3>
+            <p>+123 456 789</p>
+          </div>
+          <div class="contactinfo">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>your.email@example.com</p>
+          </div>
+          <form class="contact-form">
+            <h2>
+              Get In Touch
+              <div class="SocialLinks">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </h2>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder="Full name"
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email address"
+            />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit" class="primary">Send Message</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <script src="main.js"></script>
+      <ul>
+        <li>&copy; 2022 Your Name. All rights reserved.</li>
+      </ul>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const links = document.querySelector('.Links');
+        links.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
